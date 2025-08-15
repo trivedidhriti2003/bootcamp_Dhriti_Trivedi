@@ -4,9 +4,9 @@
 Understanding the Impact of Trading Volume on Short‑Term Market Price Movements
 
 ## Problem Statement
-Accurately understanding the drivers behind asset price movements is critical for informed trading and investment decision-making. In equity markets, trading volume — the number of shares or contracts exchanged in a given day — is often considered a potential signal of short-term price direction and volatility. However, the extent and consistency of this relationship remain uncertain and asset-specific.
+Understanding what makes stock prices go up or down is very important for making smart investment decisions. One factor that might affect prices is trading volume — the number of shares bought and sold in a day. Higher or lower trading volume could sometimes signal short-term price changes, but this relationship is not always clear and can vary between assets.
 
-This project investigates how changes in daily trading volume influence short-term returns of a key market index using historical data from April 2018 to March 2023. Leveraging the Yahoo Finance dataset, the analysis will quantify the magnitude, direction, and potential lagged effects of trading volume on price changes. The findings will provide stakeholders with measurable evidence to separate meaningful patterns from random fluctuations, enabling better-informed trading strategies.
+This project looks at how daily changes in trading volume affect short-term returns of a major market index, using historical data from April 2018 to March 2023. Using the Yahoo Finance dataset, we will measure how much and in what direction trading volume affects prices, and whether the effect happens immediately or with a delay. The results will help investors understand real patterns versus random price movements, so they can make better trading decisions.
 
 ## Stakeholder & User
 Primary Stakeholders: Retail investors, financial analysts, portfolio managers
