@@ -1,4 +1,3 @@
-# bootcamp_Dhriti_Trivedi
 # Project Title
 Understanding the Impact of Trading Volume on Short‑Term Market Price Movements
 
