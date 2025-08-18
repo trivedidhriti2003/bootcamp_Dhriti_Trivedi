@@ -1,0 +1,8 @@
+# Ignore secrets
+.env
+
+# Ignore raw data
+data/raw/
+
+# Ignore Jupyter autosave checkpoints
+.ipynb_checkpoints/
