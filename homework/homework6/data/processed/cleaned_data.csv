@@ -1,0 +1,5 @@
+id,name,value,is_active
+1,Alice,0.0,True
+2,Bob,0.3277027027027027,False
+3,Charlie,0.6824324324324325,True
+4,David,1.0,False
