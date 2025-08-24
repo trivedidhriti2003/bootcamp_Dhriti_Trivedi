@@ -81,40 +81,17 @@ Feature Engineering: Key metrics were engineered from the raw data, including:
 
 - Modeling & Analysis: Three primary experiments were conducted to test the hypothesis:
 
-Experiment 1 (Regression): A linear regression model was built to predict Daily Return using the previous day's Volume Change.
+Experiment 1 (Regression): 
 
-Experiment 2 (Advanced Regression): A second regression model was built using a "smarter" feature that compared the daily volume to its 50-day moving average.
+A linear regression model was built to predict Daily Return using the previous day's Volume Change.
 
-Experiment 3 (Classification): A logistic regression model was trained to predict whether the next day would be a "high volatility" or "low volatility" day based on the previous day's Volume Change.
+Experiment 2 (Advanced Regression):
 
-Of course. Here is a final summary report for your project based on all the steps you've completed.
+A second regression model was built using a "smarter" feature that compared the daily volume to its 50-day moving average.
 
-Project Report: The Impact of Trading Volume on Short-Term Market Price Movements
-Executive Summary
-This project investigated the common hypothesis that changes in daily trading volume can be used to predict short-term price movements in a major market index. Using daily data for the Dow Jones Industrial Average from April 2018 to March 2023, a series of statistical models were developed to test this relationship.
+Experiment 3 (Classification): 
 
-The analysis concluded that there is no statistically significant or practically useful relationship between daily volume changes and the next day's price returns or volatility. The findings suggest that, for this dataset, daily trading volume is not a reliable standalone indicator for making short-term trading decisions.
-
-Project Overview & Methodology
-The project's objective was to determine if daily changes in trading volume could reliably predict the direction or magnitude of the next day's price movement. The methodology involved several key stages:
-
-Data Ingestion & Cleaning: Historical daily data (Open, High, Low, Close, Volume) was loaded, cleaned, and processed for analysis.
-
-Feature Engineering: Key metrics were engineered from the raw data, including:
-
-Daily Return (%): The daily percentage change in the closing price.
-
-Volume Change (%): The daily percentage change in trading volume.
-
-Volatility (%): The daily price range as a percentage of the closing price.
-
-Modeling & Analysis: Three primary experiments were conducted to test the hypothesis:
-
-Experiment 1 (Regression): A linear regression model was built to predict Daily Return using the previous day's Volume Change.
-
-Experiment 2 (Advanced Regression): A second regression model was built using a "smarter" feature that compared the daily volume to its 50-day moving average.
-
-Experiment 3 (Classification): A logistic regression model was trained to predict whether the next day would be a "high volatility" or "low volatility" day based on the previous day's Volume Change.
+A logistic regression model was trained to predict whether the next day would be a "high volatility" or "low volatility" day based on the previous day's Volume Change.
 
 ## Key Findings & Evidence
 Across all three experiments, the results consistently showed a lack of predictive power from the volume-based features.
